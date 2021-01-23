@@ -1,0 +1,401 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto");
+@import url("https://fonts.googleapis.com/css?family=Droid+Serif:400i");
+
+
+*{
+	margin:0px;
+	padding: 0px;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.no-margin {
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+.marTop {
+	margin-top: -30px;
+}
+
+.marTP-20 {
+	margin-top: 20px;
+}
+
+.marTop-30 {
+	margin-top: 30px;
+}
+
+.no-padding {
+	padding: 0px 0px!important;
+}
+
+.pad-TP50 {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.banner {
+	background: url('../images/bg.jpg') no-repeat top center;
+	background-size: cover;
+	min-height: 94vh;
+	position: relative;
+	overflow: hidden;
+	padding: 8em 2em 0em;
+}
+
+.banner::after {
+	content: '';
+	background: #444b539e;
+}
+
+.banner::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.banner-caption {
+	position: relative;
+	z-index: 9;
+	color: #ffffff;
+}
+
+.banner-caption > h1 {
+	margin-bottom: 20px;
+}
+
+.banner-caption p {
+	font-size: 14px;
+	line-height: 1.85em;
+	font-weight: 300;
+}
+
+.navbar-bg-color {
+	background-color: #b66cff!important;
+}
+
+
+.header {
+	background-color: transparent;
+	border-color: transparent;
+	padding: 15px 0px;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    font-size: 14px;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #fff;
+    opacity: 0.8;
+    background-color: transparent;
+}
+
+.btn-blue {
+	background-color: #b66cff;
+	color: #fff!important;
+	padding: 8px 15px!important;
+    margin-top: 8px;
+}
+
+a.btn-blue:hover, a.btn-blue:focus, a.btn-blue:active {
+	background-color: #a85cf4!important;
+	opacity: 1!important;
+	color: #fff!important;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.bg-white {
+	background-color: #ffffff;
+	padding: 10px 15px;
+	border-radius: 4px;
+	box-shadow: 0px 0px 4px #cccccc;
+}
+
+.partners > .container > .row > .bg-white {
+	position: relative;
+	z-index: 1;
+}
+
+.our-solution-section, .why-us-section, .work-section, .guide-section {
+	padding: 30px 0px;
+}
+
+h3.section-head {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	padding: 0px 15px;
+}
+
+.sol-block {
+	padding: 10px 35px;
+}
+
+.sol-block > h4 {
+	font-weight: 600;
+	line-height: 1.35em;
+	font-family: 'Open Sans', sans-serif;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	margin: 0px;
+}
+
+.sol-link {
+    color: #b66cff;
+    display: block;
+}
+
+.sol-link:hover, .sol-link:focus, .sol-link:active {
+	    text-decoration: none!important;
+	    color: #a85cf4;
+}
+
+p.para-text {
+	font-weight: 600;
+}
+
+.pro-block {
+	background: url('../images/car.png') no-repeat center center;
+	background-size: cover;
+	width: 100%;
+	min-height: 350px;
+	position: relative;
+	overflow: hidden;
+	border-radius: 4px;
+}
+
+.caption {
+	width: 100%;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 25%;
+    color: #fff;
+    padding: 10px 15px;
+}
+
+.caption h5 {
+	margin-bottom: 5px;
+}
+
+.span-text {
+	float: right;
+    font-size: 12px;
+    padding: 10px 15px;
+    text-decoration: underline;
+}
+
+.span-text > a {
+	color: #b66cff;
+}
+
+.plan-section {
+	width: 100%;
+	display: block;
+	float: none;
+	margin: 0px auto;
+}
+
+.bg-grey {
+	background-color: #f9fafb;
+}
+
+.plan-form-control {
+	display: block;
+    width: 100%;
+    height: 45px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #eff0f1;
+    background-image: none;
+    border: 0px solid #ccc;
+    border-radius: 0px;
+    -webkit-box-shadow: inherit;
+    box-shadow:  inherit;
+    -webkit-transition:  inherit;
+    -o-transition:  inherit;
+    -webkit-transition:  inherit;
+    transition:  inherit;
+    transition:  inherit;
+    transition:  inherit;
+}
+
+.plan-form-control:focus{
+    outline: 0;
+    border: 1px solid #000000;
+    box-shadow: inherit;
+    -webkit-box-shadow:inherit;
+    background-color: #f7f8f9;
+}
+
+.gbox-block {
+	background-size: cover;
+	width: 100%;
+	min-height: 150px;
+	overflow: hidden;
+	position: relative;
+	border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.gbox-head {
+	padding: 0px 15px;
+    line-height: 1.35em;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.gbox-para {
+	margin: 0;
+    padding: 10px 15px;
+}
+
+.information-section {
+	background-color: #b66cff;
+	color: #fff;
+	padding: 50px 0px;
+}
+
+.foot-para {
+	min-height: 126px;
+}
+
+.info {
+	font-weight: 600;
+	font-size: 14px;
+	padding: 10px 15px;
+}
+
+.info::before {
+	content: '';
+	background-color: #ffffff;
+	position: absolute;
+	width: 70px;
+    height: 2px;
+    top: 160px;
+}
+
+.footer {
+	background-color: #212b36;
+	padding: 30px 0px;
+	color: #ffffff;
+}
+
+.nav-icon li {
+	padding: 0px;
+}
+
+.nav-icon li > a {
+	color: #fff;
+	padding: 0px 15px;
+}
+
+.nav-icon li > a:hover, .nav-icon li > a:focus, .nav-icon li > a:active {
+	background-color: transparent; 
+}
+
+.nav-icon li > a.tweet:hover {
+	color: #4c6ef5;
+}
+
+.nav-icon li > a.fb:hover {
+	color: #4867AA;
+}
+
+
+/*-----Media Queries Starts here ------*/
+
+@media screen and (max-width: 767px) {
+	.our-solution-section, .why-us-section, .work-section, .guide-section {
+		padding: 30px 15px;
+	}
+
+	.footer {
+		padding: 30px 15px;
+	}
+
+	.pro-block {
+		margin-top: 30px;
+	}
+
+	.right-info > .row > p {
+		padding: 0px 15px;
+	}
+
+	.nav-icon li {
+   		padding: 0px;
+    	float: left;
+	}
+
+	.navbar-default .navbar-toggle {
+		border-color: transparent;
+	}
+
+	.navbar-default .navbar-toggle .icon-bar {
+		background-color:#ffffff;
+	}
+
+	.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+		background-color: transparent;
+	}
+
+	.navbar-brand > img {
+		margin-top: -10px;
+	}
+}
+
+@media (max-width: 1024px) and (min-width: 768px) and (orientation: portrait) {
+	.my-nav >li>a {
+		padding: 10px 15px!important;
+		font-size: 11px!important;
+	}
+
+	.part-img > .img-responsive {
+		margin: 0px auto!important;
+	}
+
+	.pro-block {
+		margin-top: 30px;
+	}
+
+	.my-nav > li > a.btn-blue {
+		margin-top: -1px;
+	}
+
+	.banner {
+    	min-height: 60vh;
+	}
+
+	.my-nav {
+		float: left!important;
+	}
+
+
+
+}
+
+@media (max-width: 1399px) and (min-width: 1024px){
+	.banner {
+    	min-height: 50vh;
+	}
+
+	.my-nav > li > a.btn-blue {
+		margin-top: -1px;
+	}
+}
